@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@font-face {
+  font-family: 'Glober';
+  src: url('/fonts/Glober') format('opentype');
+}
+
+html,
+body {
+  font-family: 'Glober', 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24;
+  }
+  
+h2 {
+  font-size: 20;
+  }
+
+.wide {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.text-dark {
+  color: rgb(0, 0, 0);
+}
+
+.text-large {
+  font-size: 24px;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.text-blue {
+  color: rgb(0, 139, 164);
+}
+
+.text-orange {
+  color: rgb(228, 119, 49);
+}
+
+.facts {
+  color: rgb(0, 0, 0);
+  border: 3px solid;
+  padding: 6px;
+  max-width: 445px;
+  display: block;
+  margin: auto;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.green-back {
+  background: url("/images/green-back.gif");
+}
+
+.thick-bar {
+  border-bottom: 8px solid black;
+}
+
+.thin-bar {
+  border-bottom: 4px solid black;
+}
